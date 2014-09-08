@@ -1,0 +1,32 @@
+name: SunshineSpawner
+author: Ir0nik
+version: 1.0
+main: fr.sunshine.spawner.SunriseSpawner
+commands:
+  sunshinespawner:
+    description: Commande du plugin !
+    usage: /<command>
+  ss:
+    description: Commande du plugin !
+    usage: /<command> 
+  spawner:
+    description: Commande du plugin !
+    usage: /<command>    
+permissions:
+    sunshine.*:
+        description: Acces a toutes les commandes de SunriseSpawner
+        default: op
+        children:
+            sunshine.chgowner: true
+            sunshine.takeall : true
+            sunshine.takeall.others: true
+            sunshine.info : true
+            sunshine.info.others: true
+    sunshine.takeall:
+        description: Acces au takeall pour les joueurs
+        default: true
+    sunshine.info:
+        description: Acces au info pour les joueurs
+        default: true
+        children:
+        sunshine.info.others: false

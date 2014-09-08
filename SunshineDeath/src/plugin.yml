@@ -1,0 +1,14 @@
+name: SunshineDeath
+version: 1.2
+description: Change les messages de mort
+author: Ir0nik
+main: com.gmail.josemanuelgassin.DeathMessages._DeathMessages
+
+commands:
+  deathmessages:
+  dm:
+permissions:
+  deathmessages.admin:
+    default: op
+  deathmessages.user:
+    default: op

@@ -1,0 +1,7 @@
+# sunshine Config file
+configbdd:
+  user: <nomUtilisateur>
+  password: <motDePasse>
+  database_name: <nomBDD>
+  server: <adresseServeur>
+  port: 3306

@@ -1,0 +1,8 @@
+name: SunshineUtils
+author: Ir0nik
+website: http://www.mc-sunshine.com
+version: 1.2
+main: fr.sunshine.hoppers.Main
+commands:
+  insultes:
+    description: Jail et mute un joueur automatiquement
